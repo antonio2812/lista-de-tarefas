@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+        </script>
+
+    <link rel="shortcut icon" href="./ico/icone.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div>
+            <h1>Lista de Tarefas</h1>
+        </div>
+        <br />
+
+        <div>
+            <ul>
+                <li>✅ Leitura</li>
+                <br />
+
+                <li>✅ Treino</li>
+                <br />
+
+                <li>✅ Trabalho</li>
+                <br />
+
+                <li>✅ Programação</li>
+                <br />
+
+                <li>✅ Dormir</li>
+            </ul>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <div id="button">
+            <button id="btn">Excluir Lista</button>
+
+            <button id="btn2">Adicionar Lista</button>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    // Sumir/Ocultar e Aparecer/Exibir
+    // $('h1').fadeOut("2000").fadeIn("2000")
+
+
+    // Remover um Elemento
+    // $('li').remove()
+
+
+    // Adicionar um tipo de dado no final de um Elemento
+    // $('h1').append(" de Pessoas")
+
+
+    // Seletor de id -> Identificador 
+    // $('#btn').remove()
+
+
+    // Funcionalidade de linkar um botão ou qualquer outro elemento
+    // $('#btn').on("click", botao)
+
+    // function botao() {
+    //     $('h1').remove()
+    // }
+
+
+    // Funcionalidade de estilizar os elementos
+    // $('li').css({ 'color': 'dodgerblue', 'list-style': 'none', })
+
+
+    // Estilizando com JQuery
+    $('body').css({ 'background-color': 'rgb(29, 29, 29)' })
+
+    $('h1').css({ 'font-family': 'arial', 'color': 'white' })
+
+    $('ul').css({ 'font-family': 'arial', 'color': 'white', 'list-style': 'none' })
+
+
+    // Excluir
+    $('#btn').on("click", lista)
+
+    function lista() {
+        $('li').fadeOut(1000)
+    }
+
+
+    // Adicionar
+    $('#btn2').on("click", lista2)
+
+    function lista2() {
+        $('li').fadeIn(1000)
+    }
+</script>
+
+</html>

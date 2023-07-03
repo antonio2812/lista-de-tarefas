@@ -1,0 +1,94 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+ul li {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 90px;
+}
+
+ul li:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#btn {
+    background-color: rgb(178, 34, 34);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#btn2 {
+    background-color: rgb(34, 139, 34);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#btn2:hover {
+    background-color: green;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+@media (max-width: 370px) {
+    h1 {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 353px) {
+    h1 {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 280px) {
+    h1 {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 370px) {
+    ul li {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 370px) {
+    #button {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 280px) {
+    #button {
+        margin-right: 80px;
+    }
+}
