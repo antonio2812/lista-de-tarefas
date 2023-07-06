@@ -19,7 +19,7 @@
 
 ## 💻  Projeto
 
-Este projeto é uma Lista de Tarefas simples com botão de excluir e adicionar a lista.
+Este projeto é uma Lista de Tarefas simples desenvolvido com JQuery. Contém um botão de excluir e um de adicionar a lista.
 
 [Visite o projeto online](https://antonio2812.github.io/lista-de-tarefas)
 
