@@ -15,6 +15,7 @@
 
 <br>
 
+![print-lista-de-tarefas](https://github.com/antonio2812/lista-de-tarefas/assets/104834145/9452d41d-539d-4d8c-b806-2a706977433a)
 
 
 ## 💻  Projeto
